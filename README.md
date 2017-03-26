@@ -160,4 +160,5 @@ beberapa diantaranya :
 - Install Vanilla Forums on Ubuntu 16.04 | https://www.1and1.co.uk/cloud-community/learn/application/misc/install-vanilla-forums-on-ubuntu-1604/
 - PHPmyadmin Documentation | https://help.ubuntu.com/lts/serverguide/phpmyadmin.html
 - Vanilla Forums Open Source Theme | https://open.vanillaforums.com/addon/browse/themes/
-- 
+- Vanilla Forums Help | https://open.vanillaforums.com/discussion/12702/could-not-instantiate-mail-function
+- PHP Curl Instalation | http://stackoverflow.com/questions/33775897/how-do-i-install-the-ext-curl-extension-with-php-7
