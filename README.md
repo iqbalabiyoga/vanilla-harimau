@@ -1,7 +1,7 @@
 # "Social Networks and Forums"
 ![N|Solid](http://i.imgur.com/UtVVCNS.png)
 ## Sekilas Tentang
-Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable discussion forums.Vanilla dikembangkan dengan menggunakan bahasa PHP dan menggunakan Framework Garden.Vanila forum memudahkan seseorang untuk membuat forum sesuai dengan keinginannya sendiri.
+Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable discussion forums.Vanilla dikembangkan dengan menggunakan bahasa PHP dan menggunakan Framework Garden.Vanila forum memudahkan seseorang untuk membuat forum sesuai dengan keinginannya sendiri. [Lihat Video Vanilla Forum](https://www.youtube.com/watch?v=ucO5iSV-paw)
 ## Instalasi
 - Requirement awal pada instalas Forum sama seperti pada proses intalasi Wordpress pada praktikum 1 berikut requirement yang diperlukan :
 
@@ -43,7 +43,7 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
     $ sudo mysql –u root –p
     mysql > CREATE DATABASE [database name];
     mysql > CREATE DATABASE my_vanilla_forums;
-    mysql > GRANT all ON [database name].* TO [database username]@localhost             IDENTIFIED BY '[database user password]';
+    mysql > GRANT all ON [database name].* TO [database username]@localhost IDENTIFIED BY '[database user password]';
     ```
     Replace [database name], [database username], [database user password] sesuai dengan keinginan . contoh : username= *RanggaTampan* , password= *rangga123* , database='[my_vanilla_forums]'
     ```sh 
@@ -73,26 +73,27 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
      ```
     1. Certain hosts may require the following line.
     2. If vanilla is in a subfolder then you need to specify it after the /.
-    3. (ex. You put Vanilla in /forum so change the next line to: RewriteBase /forum)  RewriteBase /
+    3. (ex. You put Vanilla in /forum so change the next line to: RewriteBase /forum) RewriteBase /
    
-## Konfigurasi (opsional)
+## Konfigurasi (opsional) 
 
-Setting tambahan yang diperlukan untuk meningkatkan fungsi dan kinerja aplikasi, misalnya:
-- batas upload file
-- batas memori
-- etc.
+Adapun konfigurasi pada vanilla forums yang diperlukan untuk meningkatkan fungsi dan kinerjanya adalah : 
+- Limit Size dari upload suatu file, contoh limit size pada upload foto profil hanya disediakan sebesar 2mb. 
+- Change Name tidak disediakan pada Vanilla Forums ini 
+- Penambahan media social hanya tersedia dengan google+, sedangkan social lainnya belum tersedia 
 
-Plugin untuk fungsi tambahan
-- single log-on
-- etc.
+Plugin untuk fungsi tambahan 
+- Maintenance Mode 
+- Plugin lain yang telah didukung 
 
 
-##  Maintenance (opsional)
+## Maintenance (opsional) 
 
-Setting tambahan untuk maintenance secara periodik, misalnya:
-- hapus tmp sehari sekali
-- buat backup seminggu sekali
-- etc.
+Cara untuk maintenance pada Vanilla Forums yaitu,
+- Menggunakan fitur Plugin yang tersedia. Saat maintenance hanya area bagian dashboard yang bisa digunakan 
+- Sedangkan untuk menormalkan situs kesedia kala maka harus mematikan plugin maintenance modenya 
+- Untuk memasukkan gambar pada saat maintenance bisa dengan meletakkan image dengan nama "maintenance.png", lalu masukkan ke Plugin's /image/ folder. 
+- Untuk memberi informasi lain terkait maintenance dengan edit text yaitu edit the matching "locale" file yang berada didalam direktori Plugin's
 
 
 ## Otomatisasi
@@ -123,12 +124,12 @@ Tampilan atau Halaman awal pada Vanila Forum dapat di pilih sesuai dengan keingi
     1. Kita dapat membuat forum diskusi baru dengan judul bebas
     ![N|Solid](http://i.imgur.com/M9SXvLo.png)
     2. Kita dapat berkirim pesan sesama pengguna forum 
-    EX : User dengan nama *rangga_harimau* berkirim pesan ke user lain bernama         *iqbalabiyoga*
+    EX : User dengan nama *rangga_harimau* berkirim pesan ke user lain bernama *iqbalabiyoga*
     ![N|Solid](http://i.imgur.com/d8sbhM9.png)
     ![N|Solid](http://i.imgur.com/A9UMb5e.png)
     ![N|Solid](http://i.imgur.com/jcvL76r.png)  
     3. Saling berkomentar pada suatu topik diskusi
-    Ex: user *rangga_harimau* membuat topik diskusi dengan judul **"jadi nih"** dan     user lain berkomentar pada diskusi tersebut
+    Ex: user *rangga_harimau* membuat topik diskusi dengan judul **"jadi nih"** dan user lain berkomentar pada diskusi tersebut
     ![N|Solid](http://i.imgur.com/UdbOYYm.png)
     4. Membuat status , berkomentar dan semua fungsi umum yang terdapat pada social media terdapat pula pada Vanila Forum
     ![N|Solid](http://i.imgur.com/xno39vs.png)
@@ -154,9 +155,16 @@ beberapa diantaranya :
 ## Pembahasan
 
 - Pendapat anda tentang aplikasi web ini
-	- pros: Aplikasi ini sangat menarik 
-	- cons:
+ - Pro :
+     * Costumize Forms : Tidak semua situs web yang sama, dan forum harus seperti itu juga. Vanilla Forum memungkinkan Anda menyesuaikan forum Anda agar sesuai dengan tema website Anda atau skema warna. Anda dapat memilih salah satu dari tema membuat profesional yang diberikan oleh Vanilla Forum atau Anda dapat menyesuaikan sendiri. Pilih dari font yang berbeda, warna dan layout untuk menggunakan sesuai desain website Anda atau merek Anda. Dengan Vanilla Forum, Anda mendikte bagaimana forum akan terlihat dan tidak terbatas hanya beberapa pilihan kustomisasi.
+     * Social Media Integration : Mendapatkan volume tinggi lalu lintas internet penting untuk situs web apapun, itulah sebabnya Vanilla Forum membantu Anda memviralkan/ mempublikasikan forum Anda dengan bantuan sosial Media. Anda dapat berbagi konten dari forum Anda ke situs media sosial seperti Facebook, Twitter dan Google+ mengekspos merek Anda ke lebih banyak orang. Pengunjung Anda juga dapat berbagi konten dan konten seperti di klik tombol. Mereka juga dapat mendaftar hanya dengan login dengan akun media sosial mereka, mengurangi kompleksnya cara untuk mendaftar akun dan mendorong mereka untuk dengan mudah bergabung.
+     * Free Trial : Meskipun Vanilla Forum datang dengan label harga yang lumayan. Vanilla Forum memberikan layanan percobaan gratis 30 hari dan demo. Dengan cara ini Anda dapat mencoba layanan Vanilla Forum sebelum membuat komitmen membayar.
+ - Cons : 
+     * Expensive : Seperti yang telah kami sebutkan sebelumnya, Vanilla Forum datang dengan label harga yang lebih mahal dengan rencana versi Starter mereka di $ 99/ bulan dan rencana VIP paling mahal mencapai angka $ 3.499/ bulan. Rencana Starter mereka tampaknya minimal dibandingkan dengan VIP tapi masih mahal jika dibandingkan dengan produk sejenis lainnya di pasar. Hal ini dapat membuat usaha kecil menghindari Vanilla Forum dan mencari alternatif yang lebih murah.
+     * No Live Chat : Layanan ini selalu menjadi pilihan sebagai sarana pendukung pelanggan seperti yang Anda sering butuhkan ketika Anda menghadapi masalah dengan perangkat lunak, sehingga akan lebih baik untuk mendapatkan dukungan saat itu juga. Dengan live chat Anda tidak perlu meninggalkan komputer Anda atau menunggu hari untuk mendapatkan balasan atas perhatian Anda. Meskipun Vanilla Forum menyediakan berbagai cara untuk memberikan dukungan pelanggan, ini tidak termasuk opsi apapun untuk live chat.
+     
 - Bandingkan dengan aplikasi web kelompok lain yang sejenis
+    * ???
 
 
 ## Referensi
@@ -164,5 +172,4 @@ beberapa diantaranya :
 - Install Vanilla Forums on Ubuntu 16.04 | https://www.1and1.co.uk/cloud-community/learn/application/misc/install-vanilla-forums-on-ubuntu-1604/
 - PHPmyadmin Documentation | https://help.ubuntu.com/lts/serverguide/phpmyadmin.html
 - Vanilla Forums Open Source Theme | https://open.vanillaforums.com/addon/browse/themes/
-- Vanilla Forums Help | https://open.vanillaforums.com/discussion/12702/could-not-instantiate-mail-function
-- PHP Curl Instalation | http://stackoverflow.com/questions/33775897/how-do-i-install-the-ext-curl-extension-with-php-7
+- Vanilla Forums Help | https://open.vanillaforums.com/discussion/12702/could
