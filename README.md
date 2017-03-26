@@ -157,4 +157,7 @@ beberapa diantaranya :
 
 ## Referensi
 
-Cantumkan tiap sumber informasi yang anda pakai.
+- Install Vanilla Forums on Ubuntu 16.04 | https://www.1and1.co.uk/cloud-community/learn/application/misc/install-vanilla-forums-on-ubuntu-1604/
+- PHPmyadmin Documentation | https://help.ubuntu.com/lts/serverguide/phpmyadmin.html
+- Vanilla Forums Open Source Theme | https://open.vanillaforums.com/addon/browse/themes/
+- 
