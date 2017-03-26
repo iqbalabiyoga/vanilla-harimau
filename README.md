@@ -1,3 +1,9 @@
+##### ```Nama : Iqbal Abiyoga | G64140014```
+##### ```Nama : Airlangga Visnhu Murthi | G64140105```
+##### ```Nama : Dony Rahmad Agung S | G641400```
+##### ```Nama : M Nur Al Ghazali | G641400```
+
+
 # "Social Networks and Forums"
 ![N|Solid](http://i.imgur.com/UtVVCNS.png)
 ## Sekilas Tentang
