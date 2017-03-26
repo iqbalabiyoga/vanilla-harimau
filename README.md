@@ -13,6 +13,8 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
     | 4 | libapache2-mod-php |
     | 5 | php-mysql |
     | 6 | php-gd php-mcrypt php-mbstring php-xml php-ssh2 |
+    | 7 | php-curl |
+    | 8 | unzip |
     
 - Langkah instalasi Requirement awal dalam CLI.
     ```sh
@@ -23,6 +25,8 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
     $ sudo apt install php-mysql
     $ sudo apt install php-gd php-mcrypt php-mbstring php-xml php-ssh2
     $ sudo service apache2 restart
+    $ sudo apt-get install php-curl
+    $ sudo apt-get unzip
     ```
 - Langkah instalasi Vanila Forums dalam CLI.
      # Mengaktifkan mod_rewrite
