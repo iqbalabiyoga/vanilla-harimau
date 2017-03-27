@@ -77,7 +77,7 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
       $ sudo a2enconf phpmyadmin.conf
       $ sudo systemctl reload apache2.service
     
-    **akses ke host : 172.18.88.73/phpmyadmin
+    **akses ke host : 172.18.88.73/phpmyadmin**
     ![N|Solid](http://i.imgur.com/y8d09a1.png)
 
     ## Maintenance (opsional) 
