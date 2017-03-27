@@ -7,11 +7,9 @@
 # "Social Networks and Forums"
 ![N|Solid](http://i.imgur.com/UtVVCNS.png)
 ## Sekilas Tentang
-<<<<<<< HEAD
 Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable discussion forums.Vanilla dikembangkan dengan menggunakan bahasa PHP dan menggunakan Framework Garden.Vanila forum memudahkan seseorang untuk membuat forum sesuai dengan keinginannya sendiri.  [Lihat Video Vanilla Forum](https://www.youtube.com/watch?v=ucO5iSV-paw)
 =======
 Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable discussion forums.Vanilla dikembangkan dengan menggunakan bahasa PHP dan menggunakan Framework Garden.Vanila forum memudahkan seseorang untuk membuat forum sesuai dengan keinginannya sendiri. [Lihat Video Vanilla Forum](https://www.youtube.com/watch?v=ucO5iSV-paw)
->>>>>>> 3439dc3c32002d7eeb130c7ff64a20c0e547bd65
 ## Instalasi
 - Requirement awal pada instalas Forum sama seperti pada proses intalasi Wordpress pada praktikum 1 berikut requirement yang diperlukan :
 
@@ -199,7 +197,6 @@ Joomla merupakan Content Management System (CMS) yang memungkinkan penggunanya u
      
 - Bandingkan dengan aplikasi web kelompok lain yang sejenis
     * ???
->>>>>>> 3439dc3c32002d7eeb130c7ff64a20c0e547bd65
 
 
 ## Referensi
@@ -214,4 +211,3 @@ Joomla merupakan Content Management System (CMS) yang memungkinkan penggunanya u
 - Joomla's Fitur | https://www.joomla.org/core-features.html
 =======
 - Vanilla Forums Help | https://open.vanillaforums.com/discussion/12702/could
->>>>>>> 3439dc3c32002d7eeb130c7ff64a20c0e547bd65
