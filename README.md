@@ -7,7 +7,6 @@
 # "Social Networks and Forums"
 ![N|Solid](http://i.imgur.com/UtVVCNS.png)
 ## Sekilas Tentang
-=======
 Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable discussion forums.Vanilla dikembangkan dengan menggunakan bahasa PHP dan menggunakan Framework Garden.Vanila forum memudahkan seseorang untuk membuat forum sesuai dengan keinginannya sendiri. [Lihat Video Vanilla Forum](https://www.youtube.com/watch?v=ucO5iSV-paw)
 ## Instalasi
 - Requirement awal pada instalas Forum sama seperti pada proses intalasi Wordpress pada praktikum 1 berikut requirement yang diperlukan :
