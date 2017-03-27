@@ -34,6 +34,7 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
     $ sudo service apache2 restart
     $ sudo apt-get install php-curl
     $ sudo apt-get unzip
+    $ sudo apt install phpmyadmin
     ```
 - Langkah instalasi Vanila Forums dalam CLI.
      # Mengaktifkan mod_rewrite
