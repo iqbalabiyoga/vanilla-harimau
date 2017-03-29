@@ -1,7 +1,8 @@
-##### ```Nama : Iqbal Abiyoga | G64140014```
-##### ```Nama : Airlangga Visnhu Murthi | G64140105```
-##### ```Nama : Dony Rahmad Agung S | G641400```
-##### ```Nama : M Nur Al Ghazali | G641400```
+##### ```Tim Harimau:```
+##### ```1. Iqbal Abiyoga | G64140014```
+##### ```2. Airlangga Visnhu Murthi | G64140105```
+##### ```3. Dony Rahmad Agung S | G64140007```
+##### ```4. M Nur Al Ghazali | G64140038```
 
 
 # "Social Networks and Forums"
@@ -70,6 +71,11 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
      ```
    Edit bagian **RewriteBase /** menjadi **RewriteBase/vanilla**
    
+   ## Set Up Recaptcha Key
+   ![N|Solid](http://i.imgur.com/mM3JpGk.png)
+   ![N|Solid](http://i.imgur.com/Toe6oMW.png)
+   ## Set Up Mail SMTP
+   ![N|Solid](http://i.imgur.com/rIklMGe.png)
     ## Konfigurasi (opsional) 
     ##### Manajemen Basis Data dengan PHPMyAdmin
       $ sudo ln -s /etc/phpmyadmin/apache.conf 
@@ -164,33 +170,44 @@ beberapa diantaranya :
 - Pendapat anda tentang aplikasi web ini
 	- Pros :
 	    * Kaya akan Plugin : Vanilla Forum memang dibuat menjadi forum yang ringan namun menarik, salah satu yang membuat menarik yakni dari kekuatan pluginnya. Para penggunanya bebas menkostumisasi forumnya dengan plugin-plugin yang ada untuk memenuhi kebutuhan pekerjaan mereka. Selain itu pilihan temanya pun juga cukup banyak, sehingga tampilannya dapat dibuat sesuai keinginan.
+	    	    ![N|Solid](http://i.imgur.com/rOsCNG6.png)
 	    *  Ringan & Easy to Acces : Aplikasi ini diatur sedemikian hingga sehingga penggunanya mudah untuk mengakses forum tersebut. Jadi orang awam yang baru pertama kali memakai aplikasi ini pun akan dengan mudah mempelajarnya.
 	    * Share to Social Media : Kelebihan dari Vanilla Forum lainnya yakni memberikan kemudahan bagi penggunanya untuk lebih memviralkan forumnya dengan layanan 'Get In Touch'. Pengguna dapat berbagi konten dari forum pengguna ke situs media sosial seperti Facebook, Twitter, Path, dan Google+.
+	    	    ![N|Solid](http://i.imgur.com/6IA7FZG.png)
 	    * Melihat aktivitas tanpa login : Pengguna yang belum login-pun dapat melihat perkembangan aktivitas, dan diskusi dari forum tersebut.
+	    	    ![N|Solid](http://i.imgur.com/GvRAZGz.png)
 	    * Free Trial : Pengguna yang sedang merintis bisnisnya dapat mencoba mode ini terlebih dahulu. Pada mode ini pengguna tidak dikenakan biaya. Mode free trial ini berjalan selama 30 hari.
 	    * Open Source : Vanilla Forum ini merupakan aplikasi open source, sehingga para pengembang software dapat mengunduh dengan gratis source codenya untuk kemudian dikembangkan.
+
 	    * Mode Business : Pengguna dapat meng-upgrade Vanilla Forum nya menjadi Business. Fiturnya meliputi gamification, migrasi data, theming dan integrasi CRM. Sistem ini juga mendukung beberapa protokol SSO dan forum cloud-base. Melalui forum cloud-base, bisnis memiliki tempat di mana mereka dapat mempublikasikan konten mereka, melibatkan audiens, dan mengarahkan lalu lintas ke situs Web mereka untuk meningkatkan penjualan mereka serta mempertahankan dan memproyeksikan tampilan positif dari merek atau perusahaan mereka.
+	    	    ![N|Solid](http://i.imgur.com/SahbW0N.png)
 	    * Flood Control : Mencegah spam pada forum pengguna dengan membatasi jumlah diskusi & komentar yang dapat dikirim pengguna dalam jangka waktu tertentu.
+	    	    ![N|Solid](http://i.imgur.com/dKt4YdK.png)
 	    * Banning Options : Admin dapat memblokalamat IP, domain email, dan kata-kata dari nama pengguna menggunakan layanan ini yang diakses di halaman dashboard.
+	        	    ![N|Solid](http://i.imgur.com/DSfMZnE.png)
 	- Cons : 
 	    * Mahal : Mode trial Vanilla forum ini akan berakhir setelah 30 hari. Artinya jika pengguna ingin melanjutkan penggunan forumnya harus membayar sejumlah uang dengan nominal yang tidak kecil. Versi Starter dibandrol $ 299/ bulan, Corporate sebesar $ 599/ bulan, Enterprise sebesar $ 1199/ bulan. 
-	    * No Live Chat : Layanan Live Chat biasanya ada pada berbagai forum diskusi, ini untuk mendukung berjalannya diskusi. Sayangnya, pada Vanilla Forum layanan ini tidak ada.
+	    	    ![N|Solid](http://i.imgur.com/we2AVYt.png)
 	    
-    ##### Perbandingan dengan aplikasi web kelompok lain yang sejenis (Joomla)
-    Joomla merupakan Content Management System (CMS) yang memungkinkan penggunanya untuk membangun situs Web dan aplikasi online. Joomla sangatlah berkembang dan banyak fitur yang disediakan dalam pembangunan sebuah website. Beberapa kelebihan Joomla yakni:
-    **Open Source** : Sama seperti Vanilla Forum yang telah dibahas sebelumnya. Joomla ini juga merupakan aplikasi open source.
-    **Multilanguage** : Kelebihan dari Joomla yahkni dapat memilih bahasa yang diinginkan pengguna. Kabar dari website remis Joomla, Joomla menawarkan lebih dari 65 bahasa dari penjuru dunia. Kelebihan inilah yang belum terdapat pada Vanilla Forum. Pada Vanilla Forum hanyamelayani untuk bahasa Inggris saja
-    **Easy Update** : Kemudahan dalam perbaruaan aplikasi menjadi daya tarik tersendiri Joomla. Dengan Updater yang telah built-in, Joomla dapat melakukan perbaruan secara otomatis. Pada Joomla 3.5.0, menyediakan plugin email update notification yang kakan mengabarkan kepada pengguna jika ada perbaruan yang tersedia.
-    **Media Manager** : Tool dari Joomla ini memberikan kemudahan untuk managing media. Mulai dari Upload, Organize dan sebagainya. Media Manager terintegrasi dengan Editor Artikel, sehingga file-file dalam Media Manager dapat dipanggil langsung. Sedangkan dalam Vanilla Joomla ketik ingin menyisipkan gambar harus menaruh link gambarnya terlebih dahulu.
+	    * No Live Chat : Layanan Live Chat biasanya ada pada berbagai forum diskusi, ini untuk mendukung berjalannya diskusi. Sayangnya, pada Vanilla Forum layanan ini tidak ada.
+	
+ 
+##### Perbandingan dengan aplikasi web kelompok lain yang sejenis (Joomla)
+Joomla merupakan Content Management System (CMS) yang memungkinkan penggunanya untuk membangun situs Web dan aplikasi online. Joomla sangatlah berkembang dan banyak fitur yang disediakan dalam pembangunan sebuah website. Beberapa perbedaan Joomla vs Vanilla Forum yakni:
+| Kategori | JOOMLA | Vanila Forum |
+    |-------| ------ | ------ |
+    |**Multilanguage**| Joomla menawarkan lebih dari 65 bahasa dari penjuru dunia | vanila hanya bahasa inggris saja|
+    | **Open Source**|Open Source| Open Source |
+    | **Easy Update** |Joomla 3.5.0, menyediakan plugin email update notification yang kakan mengabarkan kepada pengguna jika ada perbaruan yang tersedia |  Harus melihat update terbaru ada website resmi Vanila Forum|
+    |**Media Manager**  | Tool Joomla ini memberikan kemudahan untuk managing media. Mulai dari Upload, Organize dan sebagainya | Vanilla Forum tidak memiliki Fitur atau Tool media manager |
+    | | |
 
-    Joomla dan Vanilla Forum masing-masing memiliki kelebihan yang menjadi daya tarik tersendiri. Vanilla menjadi forum diskusi yang dibuat dengan tampilan yang simpel, ringan dan mudah digunakan dengan berbagai plug-in yang tersedia, serta fitur-fitur lainnya. Sedangkan Joomla menjadi CMS yang kaya akan fitur sehingga memudahkan penggunanya untuk membuat website tanpa bersentuhan langsung dengan coding.
- - Pro :
-     * Costumize Forms : Tidak semua situs web yang sama, dan forum harus seperti itu juga. Vanilla Forum memungkinkan Anda menyesuaikan forum Anda agar sesuai dengan tema website Anda atau skema warna. Anda dapat memilih salah satu dari tema membuat profesional yang diberikan oleh Vanilla Forum atau Anda dapat menyesuaikan sendiri. Pilih dari font yang berbeda, warna dan layout untuk menggunakan sesuai desain website Anda atau merek Anda. Dengan Vanilla Forum, Anda mendikte bagaimana forum akan terlihat dan tidak terbatas hanya beberapa pilihan kustomisasi.
-     * Social Media Integration : Mendapatkan volume tinggi lalu lintas internet penting untuk situs web apapun, itulah sebabnya Vanilla Forum membantu Anda memviralkan/ mempublikasikan forum Anda dengan bantuan sosial Media. Anda dapat berbagi konten dari forum Anda ke situs media sosial seperti Facebook, Twitter dan Google+ mengekspos merek Anda ke lebih banyak orang. Pengunjung Anda juga dapat berbagi konten dan konten seperti di klik tombol. Mereka juga dapat mendaftar hanya dengan login dengan akun media sosial mereka, mengurangi kompleksnya cara untuk mendaftar akun dan mendorong mereka untuk dengan mudah bergabung.
-     * Free Trial : Meskipun Vanilla Forum datang dengan label harga yang lumayan. Vanilla Forum memberikan layanan percobaan gratis 30 hari dan demo. Dengan cara ini Anda dapat mencoba layanan Vanilla Forum sebelum membuat komitmen membayar.
- - Cons : 
-     * **Mahal** : Walaupun open source, Vanilla Pro juga menyediakan versi pro dengan harga  **$ 99/ bulan**. Harga ini tergolong mahal dibanding provider forum open source sejenis 
-     * **Tidak Ada Live Chat** : Tidak seperti forum kebanyakan, Vanilla Forums tidak mendukung kemampuan Live Chatting
+    
+Joomla dan Vanilla Forum masing-masing memiliki kelebihan yang menjadi daya tarik tersendiri. Vanilla menjadi forum diskusi yang dibuat dengan tampilan yang simpel, ringan dan mudah digunakan dengan berbagai plug-in yang tersedia, serta fitur-fitur lainnya. Sedangkan Joomla menjadi CMS yang kaya akan fitur sehingga memudahkan penggunanya untuk membuat website tanpa bersentuhan langsung dengan coding.
+![N|Solid](http://i.imgur.com/5GHCCO6.png)
+![N|Solid](http://i.imgur.com/9Jauss4.png)
+![N|Solid](http://i.imgur.com/duhJcih.png)
+![N|Solid](http://i.imgur.com/SNhJjir.png)
      
 
 ## Referensi
