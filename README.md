@@ -71,11 +71,6 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
      ```
    Edit bagian **RewriteBase /** menjadi **RewriteBase/vanilla**
    
-   ## Set Up Recaptcha Key
-   ![N|Solid](http://i.imgur.com/mM3JpGk.png)
-   ![N|Solid](http://i.imgur.com/Toe6oMW.png)
-   ## Set Up Mail SMTP
-   ![N|Solid](http://i.imgur.com/rIklMGe.png)
     ## Konfigurasi (opsional) 
     ##### Manajemen Basis Data dengan PHPMyAdmin
       $ sudo ln -s /etc/phpmyadmin/apache.conf 
@@ -117,6 +112,12 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
     ## Penyelesaian Instalasi
     ![N|Solid](http://i.imgur.com/F8wwMo8.png)
     ![N|Solid](http://i.imgur.com/0M7cnQ7.png)
+    
+    ## Konfigurasi Mailer SMTP
+    ![N|Solid](http://i.imgur.com/rIklMGe.png)
+    ## Konfigurasi Key Recaptcha
+    ![N|Solid](http://i.imgur.com/mM3JpGk.png)
+    ![N|Solid](http://i.imgur.com/Toe6oMW.png)
     ## Cara Pemakaian
     Tampilan atau Halaman awal pada Vanila Forum dapat di pilih sesuai dengan keinginan seperti customize theme pada blog. Pada Vanila Forum tema pada forum dapat di ganti pada menu Appearance >Themes hanya jika login sebagai admin
 ![N|Solid](http://i.imgur.com/L83B85K.png)
