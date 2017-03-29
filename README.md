@@ -195,7 +195,8 @@ beberapa diantaranya :
  
 ##### Perbandingan dengan aplikasi web kelompok lain yang sejenis (Joomla)
 Joomla merupakan Content Management System (CMS) yang memungkinkan penggunanya untuk membangun situs Web dan aplikasi online. Joomla sangatlah berkembang dan banyak fitur yang disediakan dalam pembangunan sebuah website. Beberapa perbedaan Joomla vs Vanilla Forum yakni:
-| Kategori | JOOMLA | Vanila Forum |
+
+	| Kategori | JOOMLA | Vanila Forum |
     |-------| ------ | ------ |
     |**Multilanguage**| Joomla menawarkan lebih dari 65 bahasa dari penjuru dunia | vanila hanya bahasa inggris saja|
     | **Open Source**|Open Source| Open Source |
