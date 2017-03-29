@@ -195,16 +195,8 @@ beberapa diantaranya :
  
 ##### Perbandingan dengan aplikasi web kelompok lain yang sejenis (Joomla)
 Joomla merupakan Content Management System (CMS) yang memungkinkan penggunanya untuk membangun situs Web dan aplikasi online. Joomla sangatlah berkembang dan banyak fitur yang disediakan dalam pembangunan sebuah website. Beberapa perbedaan Joomla vs Vanilla Forum yakni:
+![N|Solid](http://i.imgur.com/DODOqu4.png)
 
-    | Kategori | JOOMLA | Vanila Forum |
-    |-------| ------ | ------ |
-    |**Multilanguage**| Joomla menawarkan lebih dari 65 bahasa dari penjuru dunia | vanila hanya bahasa inggris saja|
-    | **Open Source**|Open Source| Open Source |
-    | **Easy Update** |Joomla 3.5.0, menyediakan plugin email update notification yang kakan mengabarkan kepada pengguna jika ada      perbaruan yang tersedia |  Harus melihat update terbaru ada website resmi Vanila Forum|
-    |**Media Manager**  | Tool Joomla ini memberikan kemudahan untuk managing media. Mulai dari Upload, Organize dan sebagainya |Vanilla Forum tidak memiliki Fitur atau Tool media manager |
-    |------ |-------- |--------|
-   
-    
 Joomla dan Vanilla Forum masing-masing memiliki kelebihan yang menjadi daya tarik tersendiri. Vanilla menjadi forum diskusi yang dibuat dengan tampilan yang simpel, ringan dan mudah digunakan dengan berbagai plug-in yang tersedia, serta fitur-fitur lainnya. Sedangkan Joomla menjadi CMS yang kaya akan fitur sehingga memudahkan penggunanya untuk membuat website tanpa bersentuhan langsung dengan coding.
 ![N|Solid](http://i.imgur.com/5GHCCO6.png)
 ![N|Solid](http://i.imgur.com/9Jauss4.png)
