@@ -23,7 +23,7 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
     | 7 | php-curl |
     | 8 | unzip |
     | 9 | phpmyadmin (opsional)|
-    
+
 - Langkah instalasi Requirement awal dalam CLI.
     ```sh
     $ sudo apt install apache2
@@ -41,7 +41,7 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
      # Mengaktifkan mod_rewrite
     ```sh
     $ sudo a2enmod rewrite #mengaktifkan modul rewrite
-    $ sudo nano etc/apache2/apache2.conf 
+    $ sudo nano etc/apache2/apache2.conf
       AllowOverride All
       Order allow,deny
       Allow from all
@@ -51,7 +51,7 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
     ```sh
     $ sudo mysql –u root –p
     mysql > CREATE DATABASE vanilla_forum;
-    mysql > GRANT ALL ON vanilla_forum.* TO harimau@localhost 
+    mysql > GRANT ALL ON vanilla_forum.* TO harimau@localhost
     IDENTIFIED BY'harimauasoy1234';
     mysql quit;              #keluar dari perintah mysql database
     ```
@@ -61,8 +61,8 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
     $ cd /var/www/example.com/html
     $ sudo mkdir /var/www/example.com/html/vanilla
     $ cd /var/www/example.com/html/vanilla
-    $ sudo wget https://open.vanillaforums.com/get/vanilla-core-2.3.zip 
-    $ sudo unzip vanilla-core-2.3.zip  
+    $ sudo wget https://open.vanillaforums.com/get/vanilla-core-2.3.zip
+    $ sudo unzip vanilla-core-2.3.zip
     $ sudo chmod -R 777 conf/ uploads/ cache/
     ```
     # Edit .htaccess File
@@ -70,20 +70,20 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
     $ sudo nano .htaccess
      ```
    Edit bagian **RewriteBase /** menjadi **RewriteBase/vanilla**
-   
-    ## Konfigurasi (opsional) 
+
+    ## Konfigurasi (opsional)
     ##### Manajemen Basis Data dengan PHPMyAdmin
-      $ sudo ln -s /etc/phpmyadmin/apache.conf 
+      $ sudo ln -s /etc/phpmyadmin/apache.conf
       /etc/apache2/conf-available/phpmyadmin.conf
       $ sudo a2enconf phpmyadmin.conf
       $ sudo systemctl reload apache2.service
-    
+
     **akses ke host : 172.18.88.73/phpmyadmin**
     ![N|Solid](http://i.imgur.com/y8d09a1.png)
 
-    ## Maintenance (opsional) 
+    ## Maintenance (opsional)
 
-    **Dashboard Area**  : Seorang user dengan level Administrator disediakan sebuah dashboard yang cukup lengkap untuk mengelola tampilan web, memasang plugin, dan banyak fungsi *administrative* lainnya  
+    **Dashboard Area**  : Seorang user dengan level Administrator disediakan sebuah dashboard yang cukup lengkap untuk mengelola tampilan web, memasang plugin, dan banyak fungsi *administrative* lainnya
 
     ## Otomatisasi
     **bin.sh**
@@ -98,21 +98,21 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
     $ sudo apt-get install php-curl
     $ sudo apt-get unzip
     $ sudo a2enmod rewrite #mengaktifkan modul rewrite
-    $ sudo nano etc/apache2/apache2.conf 
+    $ sudo nano etc/apache2/apache2.conf
         AllowOverride All
         Order allow,deny
         Allow from all
     $ sudo service apache2 restart
     $ sudo mysql –u root –p
         mysql > CREATE DATABASE vanilla_forums;
-        mysql > GRANT ALL ON my_vanilla_forums.* TO username@localhost 
+        mysql > GRANT ALL ON my_vanilla_forums.* TO username@localhost
         IDENTIFIED BY'password';
-        mysql quit;         
+        mysql quit;
   ```
     ## Penyelesaian Instalasi
     ![N|Solid](http://i.imgur.com/F8wwMo8.png)
     ![N|Solid](http://i.imgur.com/0M7cnQ7.png)
-    
+
     ## Konfigurasi Mailer SMTP
     ![N|Solid](http://i.imgur.com/rIklMGe.png)
     ## Konfigurasi Key Recaptcha
@@ -128,20 +128,20 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
 ### Menginstal Tema
 1. untuk mendapatkan tema baru kita dapat mendownload tema pada menu **Get More Themes**
 ![N|Solid](http://i.imgur.com/9E9ifoc.png)
-2. Setelah itu lakukan download dengan command wget di dalam folder **"/var/www/html/vanilla/themes"** => unzip file 
+2. Setelah itu lakukan download dengan command wget di dalam folder **"/var/www/html/vanilla/themes"** => unzip file
 ![N|Solid](http://i.imgur.com/ulCWlkU.png)
 3. Setelah 2 langkah diatas dilakukan barulah tema yang kita download dapat kita gunakan di virtual sever Vanila Forum yang kita buat. Berikut beberapa tema yang telah tim harimau download.
 ![N|Solid](http://i.imgur.com/Se4kXVw.png)
 
 # Fungsi-fungsi utama User
-- Fungsi-fungsi utama user pada Vanila Forum 
+- Fungsi-fungsi utama user pada Vanila Forum
     1. Kita dapat membuat forum diskusi baru dengan judul bebas
     ![N|Solid](http://i.imgur.com/M9SXvLo.png)
-    2. Kita dapat berkirim pesan sesama pengguna forum 
+    2. Kita dapat berkirim pesan sesama pengguna forum
     EX : User dengan nama *rangga_harimau* berkirim pesan ke user lain bernama *iqbalabiyoga*
     ![N|Solid](http://i.imgur.com/d8sbhM9.png)
     ![N|Solid](http://i.imgur.com/A9UMb5e.png)
-    ![N|Solid](http://i.imgur.com/jcvL76r.png)  
+    ![N|Solid](http://i.imgur.com/jcvL76r.png)
     3. Saling berkomentar pada suatu topik diskusi
     Ex: user *rangga_harimau* membuat topik diskusi dengan judul **"jadi nih"** dan user lain berkomentar pada diskusi tersebut
     ![N|Solid](http://i.imgur.com/UdbOYYm.png)
@@ -153,16 +153,16 @@ Vanilla Forum adalah perangkat lunak bebas, standar-compliant, customizable disc
 - Fungsi-fungsi ADMIN pada Vanila Forum sangatlah banyak . Seperti yang terdapat pada gambar diatas
 beberapa diantaranya :
     1. Kita dapat menambahkan Banner Logo pada website
-        ![N|Solid](http://i.imgur.com/3JUO9SE.png)  
-         ##### ``` Seperti ini hasilnya.```    
-        ![N|Solid](http://i.imgur.com/s4SyCFM.png)  
+        ![N|Solid](http://i.imgur.com/3JUO9SE.png)
+         ##### ``` Seperti ini hasilnya.```
+        ![N|Solid](http://i.imgur.com/s4SyCFM.png)
     2. Mengubah tema tampilan website
- ![N|Solid](http://i.imgur.com/Se4kXVw.png)   
+ ![N|Solid](http://i.imgur.com/Se4kXVw.png)
     3. Menambah dan Menghapus user
-    ![N|Solid](http://i.imgur.com/9bE4l9Q.png) 
+    ![N|Solid](http://i.imgur.com/9bE4l9Q.png)
     4. Memberikan pesan, peringatan & informasi kepada user tertentu atau seluruh user
     ![N|Solid](http://i.imgur.com/kUg4u0R.png)
-        ##### ``` Seperti ini hasilnya.``` 
+        ##### ``` Seperti ini hasilnya.```
         ![N|Solid](http://i.imgur.com/g248wbY.png)
 
 
@@ -177,7 +177,7 @@ beberapa diantaranya :
 	    	    ![N|Solid](http://i.imgur.com/6IA7FZG.png)
 	    * Melihat aktivitas tanpa login : Pengguna yang belum login-pun dapat melihat perkembangan aktivitas, dan diskusi dari forum tersebut.
 	    	    ![N|Solid](http://i.imgur.com/GvRAZGz.png)
-	    * Free Trial : Pengguna yang sedang merintis bisnisnya dapat mencoba mode ini terlebih dahulu. Pada mode ini pengguna tidak dikenakan biaya. Mode free trial ini berjalan selama 30 hari.
+	    * Free Trial : Bagi pengguna yang ingin mencoba aplikasi ini dengan memanfaatkan server Vanilla Forum. Pengguna yang sedang merintis bisnisnya dapat mencoba mode ini terlebih dahulu. Pada mode ini pengguna tidak dikenakan biaya. Mode free trial ini berjalan selama 30 hari.
 	    * Open Source : Vanilla Forum ini merupakan aplikasi open source, sehingga para pengembang software dapat mengunduh dengan gratis source codenya untuk kemudian dikembangkan.
 
 	    * Mode Business : Pengguna dapat meng-upgrade Vanilla Forum nya menjadi Business. Fiturnya meliputi gamification, migrasi data, theming dan integrasi CRM. Sistem ini juga mendukung beberapa protokol SSO dan forum cloud-base. Melalui forum cloud-base, bisnis memiliki tempat di mana mereka dapat mempublikasikan konten mereka, melibatkan audiens, dan mengarahkan lalu lintas ke situs Web mereka untuk meningkatkan penjualan mereka serta mempertahankan dan memproyeksikan tampilan positif dari merek atau perusahaan mereka.
@@ -186,13 +186,13 @@ beberapa diantaranya :
 	    	    ![N|Solid](http://i.imgur.com/dKt4YdK.png)
 	    * Banning Options : Admin dapat memblokalamat IP, domain email, dan kata-kata dari nama pengguna menggunakan layanan ini yang diakses di halaman dashboard.
 	        	    ![N|Solid](http://i.imgur.com/DSfMZnE.png)
-	- Cons : 
-	    * Mahal : Mode trial Vanilla forum ini akan berakhir setelah 30 hari. Artinya jika pengguna ingin melanjutkan penggunan forumnya harus membayar sejumlah uang dengan nominal yang tidak kecil. Versi Starter dibandrol $ 299/ bulan, Corporate sebesar $ 599/ bulan, Enterprise sebesar $ 1199/ bulan. 
+	- Cons :
+	    * Mahal : Vanilla forum ini memang gratis jika memakai server sendiri, artinya setiap orang dapat menginstall sendiri di server masing-masing. Tapi jika pengguna menggunakan server yang disediakan Vanilla Forum, Vanilla forum hanya menyediakan Mode trial selamaa 30 hari. Artinya jika pengguna ingin melanjutkan penggunan forumnya harus membayar sejumlah uang dengan nominal yang tidak kecil. Versi Starter dibandrol $ 299/ bulan, Corporate sebesar $ 599/ bulan, Enterprise sebesar $ 1199/ bulan.
 	    	    ![N|Solid](http://i.imgur.com/we2AVYt.png)
-	    
+
 	    * No Live Chat : Layanan Live Chat biasanya ada pada berbagai forum diskusi, ini untuk mendukung berjalannya diskusi. Sayangnya, pada Vanilla Forum layanan ini tidak ada.
-	
- 
+
+
 ##### Perbandingan dengan aplikasi web kelompok lain yang sejenis (Joomla)
 Joomla merupakan Content Management System (CMS) yang memungkinkan penggunanya untuk membangun situs Web dan aplikasi online. Joomla sangatlah berkembang dan banyak fitur yang disediakan dalam pembangunan sebuah website. Beberapa perbedaan Joomla vs Vanilla Forum yakni:
 ![N|Solid](http://i.imgur.com/DODOqu4.png)
@@ -202,7 +202,7 @@ Joomla dan Vanilla Forum masing-masing memiliki kelebihan yang menjadi daya tari
 ![N|Solid](http://i.imgur.com/9Jauss4.png)
 ![N|Solid](http://i.imgur.com/duhJcih.png)
 ![N|Solid](http://i.imgur.com/SNhJjir.png)
-     
+
 
 ## Referensi
 - Install Vanilla Forums on Ubuntu 16.04 | https://www.1and1.co.uk/cloud-community/learn/application/misc/install-vanilla-forums-on-ubuntu-1604/
